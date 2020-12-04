@@ -32,7 +32,7 @@ If you have installed all dependencies mentioned above, then we are ready to con
 python train/train_net.py
 ```
 
-You can download the initial weight [here](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md) and custom the training configuration in the script yourself. By default, the model will be trained with augmented data and the augmenting methods are also appointed as rotate, flip, change brightness and contrast. You can implement your onw augmenting methods and add them to the list or not use data augmentation at all.
+You can download the initial weight [here](https://github.com/facebookresearch/detectron2/blob/master/MODEL_ZOO.md) and custom the training configuration in the script yourself. By default, the model will be trained with augmented data and the augmenting methods are appointed as rotate, flip, change brightness and contrast. You can implement your onw augmenting methods and add them to the list or not use data augmentation at all.
 
 As mentioned in the report, I tested multiple configurations in the training phase and compared them with each other. The training log for each configuration I tested is also in train/ along with the visualization of it. You can compare them yourself if you wish.
 
@@ -44,7 +44,7 @@ The weight for the best model I trained can be downloaded [here](https://uchicag
 
 ### Third Step
 
-After train, you can visualize the training process using tools/vis.py or tools/vis_simple.py. Also, you can test the final model by running analysis/test.py. This script will randomly choose sample from the dataset and save the input, output and the ground truth in analysis/figs. The analysis/variance.py is specifically for showing the effect of data augmentation on the loss_mask of the model.
+After training, you can visualize the training process using tools/vis.py or tools/vis_simple.py. Also, you can test the final model by running analysis/test.py. This script will randomly choose samples from the dataset and save the input, output and the ground truth in analysis/figs. The analysis/variance.py is specifically for showing the effect of data augmentation on the loss_mask of the model.
 
 <br>
 
