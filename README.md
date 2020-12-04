@@ -14,7 +14,7 @@ kaggle competitions download -c airbus-ship-detection
 
 <br/>
 
-To run the project yourself, you need to set up [Detectron2](https://github.com/facebookresearch/detectron2) environment. You can find official Dockerfile [here](https://github.com/facebookresearch/detectron2/blob/master/docker/Dockerfile). However, I suggest custom the Dockerfile yourself regarding to you computing device and the driver version. For those who hasn't tried [docker](https://www.docker.com/) before, it's a useful tool to generate container, a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. To make full use of your computing resource, I also recommend using [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) rather than the original version for the better support to NVidia APIs.
+To run the project yourself, you need to set up [Detectron2](https://github.com/facebookresearch/detectron2) environment. You can find official Dockerfile [here](https://github.com/facebookresearch/detectron2/blob/master/docker/Dockerfile). However, I suggest custom the Dockerfile yourself regarding to you computing device and the driver version. For those who haven't tried [docker](https://www.docker.com/) before, it's a useful tool to generate container, a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. To make full use of your computing resource, I also recommend using [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) rather than the original version for the better support to NVidia APIs.
 
 <br/>
 
